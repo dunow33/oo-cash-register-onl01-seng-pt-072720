@@ -40,7 +40,7 @@ class CashRegister
       @items.clear
       @total = 0
     else
-      @total = @total - last_transaction_amount
+      @total = @total - self.last_transaction_amount
     end
   end
 end
